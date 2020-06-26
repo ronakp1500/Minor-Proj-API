@@ -1,0 +1,86 @@
+.topnav {
+  background-color: #a3a391;
+  overflow: hidden;
+  margin:0px;
+}
+.topnav:hover{
+  background-color: black;
+  color: red;
+}
+.topnav a.active{
+  background-color: #c435a8;
+  color: #35c43f;
+}
+#login-box{
+  width: 400px;
+  height: 500px;
+  
+  margin:5% auto;
+  position:relative;
+  top:50px;
+  left:350px;
+ }
+ .left{
+  
+  padding: 30px;
+ }
+
+ input[type="text"],input[type="password"]{
+    margin-bottom:20px;
+    padding:8px;
+    width:200px;
+    height:30px;
+    border:none;
+    border-bottom:1px solid #fa0000;
+
+
+ }
+ input[type="text"]:focus,input[type="password"]:focus{
+  color:red;
+  transition:0.25s ease;
+  border-bottom:3px solid #0f0f0f; 
+ }
+input[type="submit"]{
+  width:100px;
+  height: 45px;
+  background:none;
+  background-color:#10deb5;
+  cursor: pointer;
+  transition: 0.25s ease;
+  text-transform: uppercase;
+
+}
+
+.facebook_btn{
+    width:100px;
+    height: 30px;
+    font-size: 20px;
+    border-color: #32508e;
+    cursor:pointer;
+    background-color:#0443c7;
+    color: white;
+    border-radius:10px;
+}
+.facebook_btn:hover{
+    opacity: 0.5;
+    box-shadow:4px #0c176b;
+}
+
+.google_btn{
+    width:100px;
+    height: 30px;
+    font-size: 20px;
+    background-color:#f50707;
+    color: white;
+    border-radius:10px;
+    cursor:pointer;
+}
+.google_btn:hover{
+    opacity: 0.5;
+    box-shadow:4px #6b0c0c;
+}
+
+
+
+
+

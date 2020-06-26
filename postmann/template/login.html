@@ -1,0 +1,37 @@
+{% load static %}
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet"  href='{% static "css/loginpage.css" %}'>
+	 
+</head>
+<body>
+	<div class="topnav">
+
+         <img src='{% static "images/logo.png" %}' style="width:15%"/>
+ 		 <a class ="active" href="#home">Home</a>
+     </div>
+     
+     <div class="foodpic"style="width :200px;height:600px; float:left"> 
+            <img src='{% static "images/food2.jpg" %}'>
+        </div>
+        
+     <div id="login-box">
+     	<div class="left">
+                    <p>Welcome to Login Page</p>
+                    <form action="{% url 'submitb' %}"> 
+                    <input type="text" name="username" placeholder="Username"/>
+                    <input type="text" name="emailid" placeholder="Email"/>
+                    <input type="password" name="pass" placeholder="Enter your password"/>
+                    <!-- <input type="password" name="repeat_password" placeholder="Enter your password again"/><br> -->
+                    <br>
+                    <input type="submit" name="signup" value="Sign up"/><br>
+                    </form>
+                    <p>Login with</p>
+                    <button onclick="window.location.href='https://www.facebook.com/'"class="facebook_btn">facebook</button>
+                    <button onclick="window.location.href='https://www.google.com/'"class="google_btn">Google</button>
+      </div>
+      </div>
+            
+     
+</body>
